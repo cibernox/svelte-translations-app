@@ -4,6 +4,7 @@
 	let selectedGender = 'female';
 	let count1 = 3;
 	let count2 = 3;
+	let count3 = 1;
 </script>
 
 <main>
@@ -26,6 +27,10 @@
 	<p>
 		{$t("pluralized", { values: { count: count2 } })}
 		<input type="number" bind:value={count2} min="0" max="20">
+	</p>
+	<p>
+		{$t("pluralized-with-hash", { values: { count: count3 } })}
+		<input type="number" bind:value={count3} min="0" max="20"> [Interpolation with #]
 	</p>
 	<p>
 		{$t("selected", { values: { gender: selectedGender } })}

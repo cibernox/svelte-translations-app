@@ -7,6 +7,7 @@
   "date-custom-format": "Hoy es {today, date, abbr-full}",
   "number": "Mi número favorito es {n, number}",
   "percent": "Mi número favorito es {n, number, percent}",
-  "pluralized": "{count, plural,=0 {No tengo ningún gato} =1 {Tengo un gato} other {Tengo {count} gatos}}",
+  "pluralized": "{count, plural, zero {No tengo ningún gato} one {Tengo un gato} other {Tengo {count} gatos}}",
+  "pluralized-with-hash": "{count, plural, zero {No tengo ningún gato} one {Tengo sólo # gate} other {Tengo # gatos}}",
   "selected": "{gender, select, male {Él es un buen chico} female {Ella es una buena chica} other {Son buena gente}}"
 }
