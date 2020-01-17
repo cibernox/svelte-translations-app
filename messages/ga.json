@@ -1,0 +1,12 @@
+{
+  "plain": "Un texto sen interpolacións",
+  "interpolated": "Un texto onde interpolo {count} veces",
+  "time": "Agore é {now, time}",
+  "time-custom-format": "Agora é {now, time, hour}",
+  "date": "Hoxe é {today, date}",
+  "date-custom-format": "Hoxe é {today, date, abbr-full}",
+  "number": "O meu número favorito é {n, number}",
+  "percent": "O meu número favorito é {n, number, percent}",
+  "pluralized": "{count, plural,=0 {Non teño ningún gato} =1 {Teño un gato} other {Teño {count} gatos}}",
+  "selected": "{gender, select, male {Él é unha bo rapaz} female {Ela é unha boa rapaza} other {Son boa xente}}"
+}

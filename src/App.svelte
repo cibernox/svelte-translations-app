@@ -1,5 +1,5 @@
 <script>
-	import { t, locale, locales, dictionary } from 'svelte-i18n';
+	import { t, locale, locales } from 'svelte-i18n';
 </script>
 
 <main>
@@ -20,6 +20,6 @@
 	<p>{$t("selected", { values: { gender: 'female' } })}</p>
 
 	{#each $locales as l}
-		<button type="button" on:click="{() => locale.set(l)}">{l}</button>
+		<button type="button" disabled="{$locale === l}" on:click="{() => locale.set(l)}">{l}</button>
 	{/each}
 </main>
