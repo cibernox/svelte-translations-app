@@ -4,12 +4,14 @@ import es from "../messages/es.json";
 import ga from "../messages/ga.json";
 
 addMessages('en', en);
+addMessages('en-GB', en);
+addMessages('en-US', en);
 addMessages('es', es);
 addMessages('ga', ga);
 
 init({
   fallbackLocale: "en",
-  // initialLocale: { navigator: true },
+  initialLocale: { navigator: true },
   formats: {
     date: {
       "abbr-full": { weekday: "long", month: "short", day: "numeric" }
