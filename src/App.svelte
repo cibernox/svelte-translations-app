@@ -6,6 +6,10 @@
 	<h1>Translations:</h1>
 	<p>{$t("plain")}</p>
 	<p>{$t("interpolated", { values: { count: 3 } })}</p>
+	<p>{$t("interpolated", { values: { count: 0 } })} [zero]</p>
+	<p>{$t("interpolated", { values: { count: false } })} [false]</p>
+	<p>{$t("interpolated", { values: { count: null } })} [null]</p>
+	<p>{$t("interpolated", { values: { count: undefined } })} [undefined]</p>
 	<p>{$t("time", { values: { now: new Date() } })}</p>
 	<p>{$t("time-custom-format", { values: { now: new Date() } })}</p>
 	<p>{$t("date", { values: { today: new Date() } })}</p>
