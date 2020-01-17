@@ -1,6 +1,6 @@
 {
   "plain": "Some text without interpolations",
-  "interpolated": "A text with I interpolate {count} times",
+  "interpolated": "A text where I interpolate {count} times",
   "time": "Now is {now, time}",
   "time-custom-format": "The hour is {now, time, hour}",
   "date": "Today is {today, date}",
