@@ -5,6 +5,8 @@
 	let count1 = 3;
 	let count2 = 3;
 	let count3 = 1;
+	let trainers = 0;
+	let friends = 0;
 </script>
 
 <main>
@@ -37,6 +39,10 @@
 		{#each genders as g}
 			<button type="button" disabled="{selectedGender === g}" on:click="{() => selectedGender = g}">{g}</button>
 		{/each}
+	</p>
+	<p>
+		{$t("nested-offsets", { values: { trainers, friends } })}
+		Trainers: <input type="number" bind:value={trainers} min="0" max="20"> | Friends: <input type="number" bind:value={friends} min="0" max="20">
 	</p>
 
 	{#each $locales as l}

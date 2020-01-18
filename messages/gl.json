@@ -9,5 +9,6 @@
   "percent": "O meu número favorito é {n, number, percent}",
   "pluralized": "{count, plural, zero {Non teño ningún gato} one {Teño un gato} other {Teño {count} gatos}}",
   "pluralized-with-hash": "{count, plural, zero {Non teño ningún gato} one {Teño só # gato} other {Teño # gatos}}",
-  "selected": "{gender, select, male {Él é unha bo rapaz} female {Ela é unha boa rapaza} other {Son boa xente}}"
+  "selected": "{gender, select, male {Él é unha bo rapaz} female {Ela é unha boa rapaza} other {Son boa xente}}",
+  "nested-offsets": "{trainers, plural, offset:1 =0 {O ximnasio está baleiro} =1 {Estás só no ximnasio} one {Ti e # entrenadores} other {Ti e outros # entrenadores {friends, plural, offset: 4 =0 {e precisas 4 amigos mais para xogar un partido de basket} =1 {e precisas 3 amigos mais para xogar un partido de basket} =2 {e precisas 2 amigos mais para xogar un partido de basket} =3 {e precisas 1 amigos mais para xogar un partido de basket} =4 {e tes suficientes amigos para xogar un partido de basket} one {e podes xogar un partido de basket y ter # xogador no banquillo} other {e podes xogar un partido de basket y ter # xogadores no banquillo}}}}"
 }

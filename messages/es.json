@@ -9,5 +9,6 @@
   "percent": "Mi número favorito es {n, number, percent}",
   "pluralized": "{count, plural, zero {No tengo ningún gato} one {Tengo un gato} other {Tengo {count} gatos}}",
   "pluralized-with-hash": "{count, plural, zero {No tengo ningún gato} one {Tengo sólo # gate} other {Tengo # gatos}}",
-  "selected": "{gender, select, male {Él es un buen chico} female {Ella es una buena chica} other {Son buena gente}}"
+  "selected": "{gender, select, male {Él es un buen chico} female {Ella es una buena chica} other {Son buena gente}}",
+  "nested-offsets": "{trainers, plural, offset:1 =0 {El gimnasio está vacío} =1 {Estás solo en el gimnasio} one {Tú y # entrenadores} other {Tú y otros # entrenadores {friends, plural, offset: 4 =0 {y necesitas 4 amigos más para jugar un partido de basket} =1 {y necesitas 3 amigos más para jugar un partido de basket} =2 {y necesitas 2 amigos más para jugar un partido de basket} =3 {y necesitas 1 amigos más para jugar un partido de basket} =4 {y tienes suficientes amigos para jugar un partido de basket} one {y puedes jugar un partido de basket y tener # jugador en el banquillo} other {y puedes jugar un partido de basket y tener # jugadores en el banquillo}}}}"
 }
