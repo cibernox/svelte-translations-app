@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import json from "@rollup/plugin-json"; // Can svelte-i18n we auto-add this?
-import precompileI18n from 'svelte-i18n/dist/rollup-plugin-precompile-i18n';
+import precompileIntl from 'rollup-plugin-precompile-intl';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -18,7 +18,7 @@ export default {
 	},
 	plugins: [
 		json(),
-		precompileI18n({ include: 'messages/*' }),
+		precompileIntl({ include: 'messages/*' }),
 		svelte({
 			// enable run-time checks when not in production
 			dev: !production,

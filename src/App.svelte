@@ -1,5 +1,5 @@
 <script>
-	import { t, locale, locales } from 'svelte-i18n';
+	import { t, locale, locales } from 'precompile-intl-runtime';
 	const genders = ['male', 'female', 'other'];
 	let selectedGender = 'female';
 	let count1 = 3;
@@ -20,12 +20,12 @@
 	<p>{$t("interpolated", { values: { count: false } })} [false]</p>
 	<p>{$t("interpolated", { values: { count: null } })} [null]</p>
 	<p>{$t("interpolated", { values: { count: undefined } })} [undefined]</p>
-	<p>{$t("time", { values: { now: new Date() } })}</p>
+	<!-- <p>{$t("time", { values: { now: new Date() } })}</p>
 	<p>{$t("time-custom-format", { values: { now: new Date() } })}[custom format]</p>
 	<p>{$t("date", { values: { today: new Date() } })}</p>
 	<p>{$t("date-custom-format", { values: { today: new Date() } })}[custom format]</p>
 	<p>{$t("number", { values: { n: 1234567 } })}</p>
-	<p>{$t("percent", { values: { n: 1234567 } })}</p>
+	<p>{$t("percent", { values: { n: 1234567 } })}</p> -->
 	<p>
 		{$t("pluralized", { values: { count: count2 } })}
 		<input type="number" bind:value={count2} min="0" max="20">
