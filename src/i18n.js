@@ -1,4 +1,4 @@
-import { addMessages, init } from 'precompile-intl-runtime'
+import { addMessages, init, navigatorLocale } from "precompile-intl-runtime";
 import en from "../messages/en.json";
 // import es from "../messages/es.json";
 // import gl from "../messages/gl.json";
@@ -11,7 +11,7 @@ addMessages('en-US', en);
 
 init({
   fallbackLocale: "en",
-  initialLocale: { navigator: true },
+  initialLocale: navigatorLocale(),
   formats: {
     date: {
       "abbr-full": { weekday: "long", month: "short", day: "numeric" }
