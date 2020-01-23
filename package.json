@@ -4,17 +4,26 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public",
+    "test": "jest src",
+    "test:watch": "npm run jest -- --watch"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0",
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-json": "^4.0.1",
     "@rollup/plugin-node-resolve": "^6.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/svelte": "^1.11.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-environment-jsdom-fifteen": "^1.0.2",
     "rollup": "^1.20.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.0.0",
+    "svelte-jester": "^1.0.3",
     "precompile-intl-runtime": "^0.0.5",
     "rollup-plugin-precompile-intl": "^0.0.9"
   },
