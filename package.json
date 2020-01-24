@@ -25,7 +25,7 @@
     "svelte": "^3.0.0",
     "svelte-jester": "^1.0.3",
     "precompile-intl-runtime": "^0.0.5",
-    "rollup-plugin-precompile-intl": "^0.0.9"
+    "rollup-plugin-precompile-intl": "^0.0.10"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
