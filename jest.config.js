@@ -7,8 +7,8 @@ module.exports = {
   },
   verbose: true,
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
-  testEnvironment: "jest-environment-jsdom-fifteen",
+  testEnvironment: "jest-environment-jsdom-sixteen",
   transformIgnorePatterns: [
-    "node_modules/(?!(svelte-routing)/)"
+    "node_modules/(?!(svelte-routing|precompile-intl-runtime)/)"
   ]
 };
