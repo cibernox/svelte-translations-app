@@ -18,7 +18,7 @@
     "babel-jest": "^25.4.0",
     "jest": "^25.5.4",
     "jest-environment-jsdom-sixteen": "^1.0.3",
-    "precompile-intl-runtime": "^0.0.5",
+    "precompile-intl-runtime": "^0.1.0",
     "rollup": "^2.21.0",
     "rollup-plugin-livereload": "^1.3.0",
     "rollup-plugin-precompile-intl": "^0.0.10",
